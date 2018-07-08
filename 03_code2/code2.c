@@ -2,19 +2,19 @@
 int printTriangle(int size) {
   int starCount = 0;//start with starCount being 0
   int i;
-  for(i=0; i<=size; i++);//count from 0 (inclusive) to size (exclusive), for each number i that you count
+  for(i=0; i<=size; i++){//count from 0 (inclusive) to size (exclusive), for each number i that you count
   int j;
-  for(j=0; j<=i; j++);//count from 0 (inclusive) to i (inclusive), for each number j that you count
+  for(j=0; j<=i; j++){//count from 0 (inclusive) to i (inclusive), for each number j that you count
 
   printf("*");//print a "*"
 
   starCount = starCount+1;//increment starCount
 
-     //when you finish counting on j, 
+  }     //when you finish counting on j, 
 
   printf("\n");//print a newline ("\n")
 
-  //when you finish counting on i, 
+  }//when you finish counting on i, 
 
   return starCount;//your answer is starCount
 
