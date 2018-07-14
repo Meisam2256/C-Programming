@@ -1,20 +1,437 @@
-Grading at Sat Jul 14 19:24:58 UTC 2018
+Grading at Sat Jul 14 21:53:00 UTC 2018
 Trying to compile your code and link with squares_test.o
-squares.c: In function ‘squares’:
-squares.c:5:3: error: ISO C forbids nested functions [-Werror=pedantic]
-   int max(int num1, int num2){
-   ^
-squares.c: In function ‘max’:
-squares.c:16:5: error: statement with no effect [-Werror=unused-value]
-     for(0; y<h ; y++){//count from 0 to h. Call the number you count with y
-     ^
-squares.c:18:7: error: statement with no effect [-Werror=unused-value]
-       for(0; x<w; x++){  //count from 0 to w. Call the number you count with x
-       ^
-squares.c:22:42: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
-     ((y>=y_offset && y<y_offset+size2))  &&
-                                          ^
-cc1: all warnings being treated as errors
-Could not compile your code
+Testing ./squares 1 0 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 0 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 4 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 1 7 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 0 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 4 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 4 7 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 0 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 4 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 8 7 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 0 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 4 8 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 0 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 0 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 0 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 1 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 1 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 1 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 3 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 3 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 3 9
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 8 1
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 8 5
+Your program produced the wrong output!
+ - Incorrect
+Testing ./squares 11 7 8 9
+Your program produced the wrong output!
+ - Incorrect
+You need to fix the incorrect cases above and try again
 
 Overall Grade: FAILED
