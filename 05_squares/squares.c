@@ -1,27 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int max(int num1, int num2){
+  if (num1 > num2){
+    return num1;
+  }
+  else{
+    return num2;
+  }
+}
 void squares(int size1, int x_offset, int y_offset, int size2) {
-  int max(int num1, int num2){
-    if (num1 > num2){
-      return num1;
-    }
-    else{
-      return num2;
-    }
     int w = max(size1, x_offset+size2);//compute the max of size1 and (x_offset + size2).  Call this w
     int h = max(size1, y_offset+size2);//compute the max of size1 and (y_offset + size2).  Call this h
     int x;
     int y;
-    for(0; y<h ; y++){//count from 0 to h. Call the number you count with y
+    for(y=0; y<h ; y++){//count from 0 to h. Call the number you count with y
 
-      for(0; x<w; x++){  //count from 0 to w. Call the number you count with x
+      for(x=0; x<w; x++){  //count from 0 to w. Call the number you count with x
 
-	if((((x>=x_offset && x<x_offset+size2)) &&
-	    (y==y_offset || y == y_offset+size2-1))  ||
-	   ((y>=y_offset && y<y_offset+size2))  &&
-	    (x == x_offset || x == x_offset+size2-1)){//check if  EITHER
-      //    OA((x is between x_offset  and x_offset +size2) AND 
+	if(((x>=x_offset && x<x_offset+size2) &&
+	   (y==y_offset || y == y_offset+(size2)-1))  ||
+	   ((y>=y_offset && y<y_offset+size2)  &&
+	    (x == x_offset || x == x_offset+(size2)-1))){
+      //check if  EITHER
+      //    ((x is between x_offset  and x_offset +size2) AND 
       //     y is equal to either y_offset OR y_offset + size2 - 1 )
       //  OR
       //    ((y is between y_offset and y_offset + size2) AND
@@ -43,7 +44,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
   printf("/n");//print a newline
     }
 }
-}
+
 //int main(){
     // squares(4,1,2,3);
     // return 0;
