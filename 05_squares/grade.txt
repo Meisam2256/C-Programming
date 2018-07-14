@@ -1,0 +1,20 @@
+Grading at Sat Jul 14 19:24:58 UTC 2018
+Trying to compile your code and link with squares_test.o
+squares.c: In function ‘squares’:
+squares.c:5:3: error: ISO C forbids nested functions [-Werror=pedantic]
+   int max(int num1, int num2){
+   ^
+squares.c: In function ‘max’:
+squares.c:16:5: error: statement with no effect [-Werror=unused-value]
+     for(0; y<h ; y++){//count from 0 to h. Call the number you count with y
+     ^
+squares.c:18:7: error: statement with no effect [-Werror=unused-value]
+       for(0; x<w; x++){  //count from 0 to w. Call the number you count with x
+       ^
+squares.c:22:42: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+     ((y>=y_offset && y<y_offset+size2))  &&
+                                          ^
+cc1: all warnings being treated as errors
+Could not compile your code
+
+Overall Grade: FAILED
