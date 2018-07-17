@@ -30,13 +30,13 @@ rectangle canonicalize(rectangle r) {
   int newX;//WRITE THIS FUNCTION
   int newY;
   if(width<0){
-    width = r.width;
-    newX = x + r.width;
+    r.width= -r.width;
+    newX = x - r.width;
     // height= r.height;
   }
   if(height<0){
-    height = r.height;
-    newY = y + r.height;
+    r.height = -r.height;
+    newY = y - r.height;
   }
   x=newX;
   y=newY;
