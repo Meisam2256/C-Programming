@@ -56,7 +56,7 @@ rectangle intersection(rectangle r1, rectangle r2) {
     int longitude = min(r1.x + r1.width, r2.x + r2.width);
     int altitude = min (r1.y + r1.height, r2.y + r2.height);
     r1.x = max(r1.x, r2.x);
-    r2.y = max(r1.y, r2.y);
+    r1.y = max(r1.y, r2.y);
     r1.width = longitude - r1.x;
     r1.height = altitude - r1.y;
   }
