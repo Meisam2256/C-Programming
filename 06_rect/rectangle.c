@@ -50,7 +50,7 @@ rectangle intersection(rectangle r1, rectangle r2) {
      (r1.y > r2.y + r2.height) ||
      (r1.y + r1.height < r2.y)){
     r1.width=0;
-    r2.width=0;
+    r1.height=0;
   }
   else{
     int longitude = min(r1.x + r1.width, r2.x + r2.width);
