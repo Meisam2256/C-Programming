@@ -38,8 +38,8 @@ rectangle canonicalize(rectangle r) {
     r.height = -r.height;
     newY = y - r.height;
   }
-  x=newX;
-  y=newY;
+  r.x =newX;
+  r.y =newY;
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
