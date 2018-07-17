@@ -1,46 +1,13 @@
-Grading at Tue Jul 17 02:36:23 UTC 2018
+Grading at Tue Jul 17 02:55:08 UTC 2018
 Attempting to compile rectangle.c
 Tring to run rectangle
-Line_1_did_not_match
-Line_3_did_not_match
-Line_4_did_not_match
-Line_5_did_not_match
-Line_6_did_not_match
-Line_7_did_not_match
-Line_8_did_not_match
-Line_9_did_not_match
-Line_10_did_not_match
-Line_11_did_not_match
-Line_12_did_not_match
-Line_13_did_not_match
-Line_14_did_not_match
-Line_15_did_not_match
-Line_16_did_not_match
-Line_17_did_not_match
-Line_18_did_not_match
-Line_19_did_not_match
-Line_20_did_not_match
-Your file did not match the expected ouput
-Your output did not match what we expected. Here is what you printed
-r1 is (-282135912,32766) to (-282135907,32772)
-r2 is (-1,-2) to (4,5)
-r3 is (-1,-3) to (6,7)
-r4 is (-4,-3) to (0,-1)
-intersection(r1,r1): (4196121,0) to (4196126,6)
-intersection(r1,r2): (4196121,0) to (4196125,5)
-intersection(r1,r3): (4196121,0) to (4196126,6)
-intersection(r1,r4): (4196121,0) to (4196122,2)
-intersection(r2,r1): (4196121,0) to (4196126,6)
-intersection(r2,r2): (4196121,0) to (4196126,7)
-intersection(r2,r3): (4196121,0) to (4196126,7)
-intersection(r2,r4): (4196121,0) to (4196122,2)
-intersection(r3,r1): (4196121,0) to (4196126,6)
-intersection(r3,r2): (4196121,0) to (4196125,7)
-intersection(r3,r3): (4196121,0) to (4196128,10)
-intersection(r3,r4): (4196121,0) to (4196122,2)
-intersection(r4,r1): (4196121,0) to (4196125,2)
-intersection(r4,r2): (4196121,0) to (4196122,1)
-intersection(r4,r3): (4196121,0) to (4196125,2)
-intersection(r4,r4): (4196121,0) to (4196125,2)
+Your file matched the expected output
+removing your main() and replacing it with out own to run more tests...
+#################################################
+testcase1:
+testcase1 passed
+#################################################
+testcase2:
+testcase2 passed
 
-Overall Grade: F
+Overall Grade: A
