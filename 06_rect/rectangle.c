@@ -29,12 +29,12 @@ rectangle canonicalize(rectangle r) {
   int height = r.height;
   int newX;//WRITE THIS FUNCTION
   int newY;
-  if(r.width<0){
+  if(width<0){
     r.width= -r.width;
     newX = x - r.width;
     // height= r.height;
   }
-  if(r.height<0){
+  if(height<0){
     r.height = -r.height;
     newY = y - r.height;
   }
