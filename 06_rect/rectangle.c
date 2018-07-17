@@ -27,19 +27,21 @@ rectangle canonicalize(rectangle r) {
   int y = r.y;
   int width = r.width;
   int height = r.height;
-  int newX;//WRITE THIS FUNCTION
-  int newY;
+  //int newX;//WRITE THIS FUNCTION
+  //int newY;
   if(width<0){
     r.width= -r.width;
-    newX = x - r.width;
+    r.x = x - r.width;
+      //newX = x - r.width;
     // height= r.height;
   }
   if(height<0){
     r.height = -r.height;
-    newY = y - r.height;
+    r.y = y -r.height;
+    //newY = y - r.height;
   }
-  r.x =newX;
-  r.y =newY;
+  x =r.x;
+  y =r.y;
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
