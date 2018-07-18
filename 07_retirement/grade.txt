@@ -1,0 +1,13 @@
+Grading at Wed Jul 18 04:46:10 UTC 2018
+Attempting to compile retirement.c
+retirement.c: In function ‘main’:
+retirement.c:30:9: error: unused variable ‘initial’ [-Werror=unused-variable]
+     int initial = 21345;
+         ^
+retirement.c:29:9: error: unused variable ‘startAge’ [-Werror=unused-variable]
+     int startAge = 327;
+         ^
+cc1: all warnings being treated as errors
+The code did not compile!
+
+Overall Grade: F
