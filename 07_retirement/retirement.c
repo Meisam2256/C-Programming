@@ -31,28 +31,23 @@ void retirement(int startAge,// in months
   }
   return ;
   }
-
-
   int main(void){
-    int startAge = 327;
-    double initial = 21345;
+    //working.initial = 327;    
     //retirement (initial = 21345);
     //retirement(startAge, initial, working, retired);
     retire_info working ;
-    //working.startAge = 327;
+    //retire_info startAge;
     //working.initial = 21345;
     working.months = 489;
     working.contribution = 1000;
     working.rate_of_return = 0.045/12;
     //retirement(working, retired);
-    //for(working.startAge =0; working.startAge<489;  working.startAge){
-    //balance =
-    
+    //for(working.startAge =0; working.startAge<489;  working.startAge){    
     retire_info retired ;
     retired.months = 384;
     retired.contribution = -4000;
     retired.rate_of_return= 0.01/12;
-    retirement(startAge, initial, working, retired);
+    retirement(327, 21345 , working, retired);
   }
 
 
