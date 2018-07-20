@@ -27,10 +27,12 @@ void retirement(int startAge,// in months
   for( i  = (startAge+working.months) ; startAge< startAge + working.months + retired.months ; i++){
     printf("Age %3d month %2d you have $%.21f\n", startAge/12, startAge%12,  balance);
   }
+
+
   //return ;
   }
   int main(void){
-    //working.initial = 327;    
+       
     //retirement (initial = 21345);
     //retirement(startAge, initial, working, retired);
     retire_info working ;
