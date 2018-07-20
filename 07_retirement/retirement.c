@@ -16,8 +16,6 @@ void retirement(int startAge,// in months
                 ){
   double balance;
   int i;
-  //startAge = 327;
-  //initial = 21345;
   printf("Age %3d month %2d you have $%.21f\n", startAge/12 , startAge%12 ,initial);
   
   balance  = (initial * working.rate_of_return) + working.contribution;
