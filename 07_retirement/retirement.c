@@ -24,7 +24,7 @@ void retirement(int startAge,// in months
   }
   
   balance  = (balance * retired.rate_of_return) + retired.contribution;
-  for( i  = (startAge+working.months) ; startAge< (startAge + working.months + retired.months) ; i++){
+  for( i  = (startAge+working.months) ;  i < (startAge + working.months + retired.months) ; i++){
     printf("Age %3d month %2d you have $%.21f\n", startAge/12, startAge%12,  balance);
   }
 
